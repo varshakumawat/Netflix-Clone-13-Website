@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+}
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.abc input:focus p{
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
